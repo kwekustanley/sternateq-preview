@@ -1,0 +1,8 @@
+{
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "rewrites": [{"source": "/((?!assets/|styles\\.css$|script\\.js$).*)", "destination": "/index.html"}],
+  "headers": [{"source": "/(.*)", "headers": [{"key": "X-Robots-Tag", "value": "noindex, follow"}, {"key": "X-Content-Type-Options", "value": "nosniff"}]}]
+}
