@@ -1,0 +1,7 @@
+node_modules
+.git
+.vercel
+README.md
+server.mjs
+package.json
+package-lock.json
